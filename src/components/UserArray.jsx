@@ -31,13 +31,13 @@ const UserArray = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center mt-[50px] mb-12 gap-6 ">
+      <div className="flex items-center justify-center mt-[50px] mb-12 gap-6">
         <input
           type="text"
           placeholder="search"
           value={Search}
           onChange={HandleSearch}
-          className="w-[700px] flex h-[50px] bg-green-200 rounded-3xl shadow-lg shadow-green-500/50 text-center sm:w-52"
+          className="w-[700px] flex h-[50px] bg-green-200 rounded-3xl shadow-lg shadow-green-500/50 text-center"
         />
         <button className="btn bg-green-200 rounded-3xl shadow-lg shadow-green-500/50">
           Liked Users: {CountLike}
