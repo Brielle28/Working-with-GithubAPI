@@ -18,7 +18,7 @@ const Search = () => {
             type="text"
             placeholder="search @gmail.com"
             className="w-[600px] h-[40px] rounded-[40px] shadow-lg shadow-gray-900/50 text-center "
-            value={searchTerm}
+            value={search}
             onChange={handleInputChange}
           />
           <CiSearch className="-translate-y- -translate-x-20 h-6 w-8" />
